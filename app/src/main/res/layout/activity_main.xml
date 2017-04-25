@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/view_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/view_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword" />
+    
+    <Button 
+        android:id="@+id/view_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="登陆"
+        />
+    
+    <Button 
+        android:id="@+id/view_clear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="清除"
+        />
+
+</LinearLayout>
